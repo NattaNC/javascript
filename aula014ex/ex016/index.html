@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercícios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Vamos contar?
+        </h1>
+    </header>
+    <section>
+        <div>
+            <label for="n1">Inicio: </label>
+            <input type="number" name="n1" id="txti">
+        </div>
+        <div>
+            <label for="n2">Fim: </label>
+            <input type="number" name="n2" id="txtf"> 
+        </div>
+        <div>
+            <label for="n3">Passo: </label>
+            <input type="number" name="n3" id="txtp">
+        </div>
+        <div class="button">
+            <input type="submit" value="Contar" name="enviar" id="enviar" onclick="contar">
+        </div>
+        <div>
+            <span id="res">
+                preparando a contagem
+            </span>
+        </div>
+    </section>
+    <footer>
+        <p>
+           &copy; CursoemVideo
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
