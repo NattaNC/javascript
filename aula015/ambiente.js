@@ -12,6 +12,8 @@ valores.sort()
 for (let pos=0; pos < valores.length; pos++) {
     console.log(` A posição ${pos} tem o valor ${valores[pos]}`)
 }
+.
+.
 */
 
 for (let pos in valores ) {
@@ -19,4 +21,5 @@ for (let pos in valores ) {
     let pos = valores.indexOf(1)
     console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
 }
+
 
